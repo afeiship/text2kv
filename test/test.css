@@ -87,6 +87,10 @@ body {
   border-bottom: 1px solid #e7e7e7;
 }
 
+.test-webkit-sassui-ios-setting-entry[icon-no-border] > .entry-item > .icon {
+  border: none;
+}
+
 .test-webkit-sassui-ios-setting-entry > .entry-item {
   display: -webkit-box;
   display: -moz-box;
@@ -115,8 +119,7 @@ body {
   box-pack: center;
 }
 
-.test-webkit-sassui-ios-setting-entry > .entry-item > .bd,
-.test-webkit-sassui-ios-setting-entry > .entry-item > .arrow {
+.test-webkit-sassui-ios-setting-entry > .entry-item > * {
   border-bottom: 1px solid #e7e7e7;
 }
 

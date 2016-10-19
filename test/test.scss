@@ -12,4 +12,7 @@ body{
 }
 .test-webkit-sassui-ios-setting-entry{
   @include webkit-sassui-ios-setting-entry();
+  .icon>img{
+    // @include size(24px);
+  }
 }

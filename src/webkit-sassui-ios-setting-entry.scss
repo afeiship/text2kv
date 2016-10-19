@@ -6,6 +6,12 @@
   color: #333;
   border-bottom: 1px solid $inColor;
 
+  &[icon-no-border]{
+    #{$inItemSelector}>.icon{
+      border:none;
+    }
+  }
+
   #{$inItemSelector} {
     @include display-box;
 
@@ -18,8 +24,7 @@
     height: $inHeight;
     padding-left: 1em;
 
-    > .bd,
-    > .arrow {
+    >* {
       border-bottom: 1px solid $inColor;
     }
 
