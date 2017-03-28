@@ -1,5 +1,5 @@
 /*webkit-sassui-ios-setting-entry Start*/
-@import "../bower_components/webkit-sass-mixins/dist/webkit-sass-mixins.scss";
+@import "bower_components/webkit-sass-mixins/dist/webkit-sass-mixins.scss";
 @mixin webkit-sassui-ios-setting-entry($inHeight:4.4em,$inColor:#e7e7e7,$inArrowWidth:30px,$inItemSelector:'>.entry-item') {
   font-size: 10px;
   background: #FFF;
